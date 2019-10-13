@@ -5,4 +5,4 @@ To create an app or website that connects the homeless population in Seattle wit
 Potentially also having food at these locations provided by the hosts or previous tenants.
 For the purpose of our project, we will be assuming that the Airbnb’s we use in our app/website are ones that allow homeless people to stay.
 
-Our Figma Prototype: <iframe style="border: none;" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fm7AHxQUX3NthqlEY678buw%2FDubHacks%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+Our Figma Prototype: https://www.figma.com/file/m7AHxQUX3NthqlEY678buw/DubHacks?node-id=0%3A1
