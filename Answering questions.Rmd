@@ -1,0 +1,67 @@
+---
+title: "Homelessness"
+author: "Winnie Hou"
+date: "10/12/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library("dplyr")
+library("knitr")
+demo <- read.csv("Demographics.csv", stringsAsFactors = FALSE)
+length <- read.csv("Length.csv", stringsAsFactors = FALSE)
+nop <- read.csv("NumberofPeople.csv", stringsAsFactors = FALSE)
+location <- read.csv("Previous_Location.csv", stringsAsFactors = FALSE)
+regions <- read.csv("AirbnbRegions1.csv", stringsAsFactors = FALSE)
+residency <- read.csv("residency.csv", stringsAsFactors = FALSE)
+```
+
+## Questions
+
+**Q1: What is the homeless rate in Seattle as of 2019?**
+
+A: 5,228 people.
+
+```{r 2019_homeless_rate, echo = FALSE}
+data <- regions[7,]
+
+data <- data %>% 
+  select(Region,X2019.Total.Unsheltered.Persons)
+
+kable(data)
+
+```
+
+**Q2: Has the homeless rate in Seattle increased or decreased over the past 
+few years?**
+
+A: The homeless rate in Seattle increased in 2018, but decreased in 2019.
+```{r dec_inc, echo=FALSE}
+data <- regions[7,]
+
+data <- data %>% 
+  select(Region,X2019.Total.Unsheltered.Persons, X2018.Total.Unsheltered.Persons, X2017.Total.Unsheltered.Persons)
+
+kable(data)
+
+```
+
+**Q3: What is the demographic of homelessness in the Seattle area?**
+
+A: The demographic of homelessness in the Seattle area is showed in the table 
+below. 27% of the homelessness are between 41 to 50 years old.
+
+```{r demographic, echo=FALSE}
+kable(demo)
+
+```
+
+**Q4: Currently, where do homeless people usually stay?**
+
+A: 84% of homelessness live in King County.
+
+```{r residency, echo=FALSE}
+kable(residency)
+
+```
