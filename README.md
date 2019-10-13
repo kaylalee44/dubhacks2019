@@ -19,8 +19,8 @@ Although the number of homeless people in WA has decreased from 2007 to 2014, we
 The data was scraped on December 19th, 2018 and contains roughly 8000 listings of current Airbnb listings in Seattle. The data has the price, reviews, latitude, longitude, bedroom, bathroom, number of guests it accommodates, room type, and more.
 
 5. Airbnb data from 2016: https://www.kaggle.com/airbnb/seattle/version/1#listings.csv 
-Potentially useful data of meal programs: https://data.seattle.gov/Community/Meals-Programs-in-Seattle/hmzu-x5ed
+6. Potentially useful data of meal programs: https://data.seattle.gov/Community/Meals-Programs-in-Seattle/hmzu-x5ed
 SEATTLE/KING COUNTY POINT-IN-TIME COUNT OF PERSONS EXPERIENCING HOMELESSNESS 2018:http://nhmin.org/wp-content/uploads/2018/06/Count-Us-In.pdf 
 
-6. http://allhomekc.org/wp-content/uploads/2019/09/KING-9.5-v2.pdf
+7. http://allhomekc.org/wp-content/uploads/2019/09/KING-9.5-v2.pdf
 
