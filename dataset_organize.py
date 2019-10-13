@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 
 data_2016 = pd.read_csv("./Airbnb Datasets/listings-2016.csv")
 data_2019 = pd.read_csv("./Airbnb Datasets/listings-2019.csv")
