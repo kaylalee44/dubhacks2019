@@ -6,6 +6,7 @@ Potentially also having food at these locations provided by the hosts or previou
 For the purpose of our project, we will be assuming that the Airbnb’s we use in our app/website are ones that allow homeless people to stay.
 
 Our Figma Prototype: https://www.figma.com/file/m7AHxQUX3NthqlEY678buw/DubHacks?node-id=0%3A1
+Our Google Drive: https://drive.google.com/open?id=1e7LRir3qF9cmDNZirKiQPcb2OlOjZ46wfklfQLV7jgg
 
 ### Data Sources:
 1. Airbnb data from 2008: https://www.kaggle.com/airbnb/seattle
